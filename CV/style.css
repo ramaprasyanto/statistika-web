@@ -1,7 +1,7 @@
 
 table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
+      /* border: 1px solid black;
+      border-collapse: collapse; */
 }
 th, td {
       padding: 5px;
@@ -22,4 +22,12 @@ div.foto{
 
 td.bio1{
     width: 40%;
+}
+
+.bg-biru{
+    background-color: deepskyblue;
+}
+
+td.kanan{
+    vertical-align: text-top;;
 }
