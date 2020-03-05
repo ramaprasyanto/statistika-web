@@ -1,3 +1,16 @@
 html {
     scroll-behavior: smooth;
   }
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.materi{
+  position: relative;
+  top: 0;
+  left: 100px
+
+}

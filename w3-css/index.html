@@ -1,76 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Styling Using W3.CSS</title>
-  <link rel="stylesheet" href="style/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/w3.css">
   <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
 </head>
-
 <body>
-  <!-- Header -->
+    <!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+    <h3 class="w3-bar-item">Menu</h3>
+    <a href="#1" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+  
+  <!-- Page Content -->
+  <div style="margin-left:25%">
   <div class="w3-top">
-    <div class="w3-card w3-bar w3-padding w3-teal w3-center">
-      <h1>Belajar CSS Menggunakan Framework</h1>
-    </div>
+  <div class="w3-container w3-teal">
+    <h1>My Page</h1>
   </div>
-  <div class="w3-container" style="margin-top: 100px;">
-    <!-- sidebar -->
-    <div class="w3-sidebar w3-sand w3-bar-block" >
-      <h3 class="w3-bar-item">Materi Pembelajaran</h3>
-      <a href="#" class="w3-bar-item w3-button w3-hover-pale-green">W3-Container</a>
-      <a href="#w3-colors" class="w3-bar-item w3-button w3-hover-pale-green">W3-Colors</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-pale-green">Link 3</a>
-    </div>
-    <!-- Materi -->
-    <div class="w3-container w3-content"  id="top">
-      <div class="w3-card w3-container w3-animate-left w3-padding-64" id="w3-container">
-        <h1>w3-container</h1>
-        <p>
-          < header> : Defines a header for a document or a section
-            <br>
-            < nav> : Defines a container for navigation links
-              <br>
-              < section> : Defines a section in a document
-                <br>
-                < article> : Defines an independent self-contained article
-                  <br>
-                  < aside> : Defines content aside from the content (like a sidebar)
-                    <br>
-                    < footer> : Defines a footer for a document or a section
-                      <br>
-                      < details> : Defines additional details
-                        <br>
-                        < summary> : Defines a heading for the < details> element
-                            <br>
-                            < div> : We define it ourselves
-        </p>
-        <div class="w3-container" style="margin-top: -220px; margin-left: 550px;">
-          <img src="/home/ramaprasyanto/Downloads/Capture2.PNG" alt="tag">
-        </div>
-        <p class="w3-panel w3-padding-16 w3-leftbar w3-center w3-light-gray">The w3-container class adds a 16px left and
-          right padding to any HTML element.</p>
-      </div>
-
-      <!-- w3-Colors -->
-      <div class="w3-card w3-container w3-animate-left w3-padding-64">
-        <h1 id="w3-colors">w3-container</h1>
-        <div class="w3-container">
-          <img src="/home/ramaprasyanto/Downloads/Capture1.PNG" width="100%" alt="tag">
-        </div>
-        <p class="w3-panel w3-padding-16 w3-leftbar w3-center w3-light-gray">The w3-container class adds a 16px left and
-          right padding to any HTML element.</p>
-      </div>
-
-      <h1></h1>
-    </div>
   </div>
-
-
-
+    
+  <div class="w3-container" style="height:1200px">
+  <h2>Sidebar Navigation Example</h2>
+  <p id="1">The sidebar with is set with "style="width:25%".</p>
+  <p>The left margin of the page content is set to the same value.</p>
+  </div>
+  
+  </div>
+        
+    
 </body>
-
 </html>
